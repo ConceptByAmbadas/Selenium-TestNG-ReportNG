@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PageObjectModel"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.844">
+  <properties />
+  
+  
+            <testcase name="run" time="7.844" classname="com.Automation.MainTest" />
+      
+</testsuite>

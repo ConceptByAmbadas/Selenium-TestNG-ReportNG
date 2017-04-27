@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="PageObjectModel(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.Automation.MainTest">
+        <methods>
+          <include name="setup"/>
+          <include name="run"/>
+        </methods>
+      </class> <!-- com.Automation.MainTest -->
+    </classes>
+  </test> <!-- PageObjectModel(failed) -->
+</suite> <!-- Failed suite [Suite] -->
