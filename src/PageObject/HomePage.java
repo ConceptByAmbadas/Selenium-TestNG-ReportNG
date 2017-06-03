@@ -8,7 +8,7 @@ import org.testng.Reporter;
 
 public class HomePage {
 
-	private static WebElement element;
+	public WebElement element;
 	 WebDriver driver;
 	  
 	 By acc=By.id("account");
@@ -25,7 +25,7 @@ public class HomePage {
 	 public  void Lnk_My_Account()
 	 {
 		 //driver.findElement(ax).click();
-		 driver.findElement(By.id("account")).click();
+		 driver.findElement(acc).click();
 	 }
 	 public void chk_Logout()
 	 {
